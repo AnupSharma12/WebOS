@@ -11,6 +11,18 @@
 </head>
 
 <body>
+    <!-- Lock Screen -->
+    <div class="lock-screen" id="lockScreen">
+        <div class="lock-time-container">
+            <div class="lock-time" id="lockTime">12:00</div>
+            <div class="lock-date" id="lockDate">Monday, January 1</div>
+        </div>
+        <div class="unlock-hint" onclick="unlock()">
+            <i class="fa-solid fa-chevron-up"></i>
+            <span>Press Space or Swipe Up to unlock</span>
+        </div>
+    </div>
+
     <div class="desktop">
 
         <!-- Taskbar -->
@@ -49,6 +61,7 @@
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
