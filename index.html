@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebOS</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="desktop">
+
+        <!-- Taskbar -->
+        <div class="taskbar">
+
+            <!-- Left: Weather/Widgets -->
+            <div class="taskbar-left">
+                <i class="fa-solid fa-cloud-sun"></i>
+                <div class="weather-info">
+                    <span>22°C</span>
+                    <span>Sunny</span>
+                </div>
+            </div>
+
+            <!-- Center: App Icons -->
+            <div class="taskbar-center">
+                <div class="taskbar-icon start-btn" id="startBtn">
+                    <img src="img/start.png" alt="Start">
+                </div>
+            </div>
+
+            <!-- Right: System Tray -->
+            <div class="taskbar-right">
+                <div class="sys-tray-icon">
+                    <i class="fa-solid fa-chevron-up"></i>
+                </div>
+                <div class="sys-tray-icon">
+                    <i class="fa-solid fa-wifi"></i>
+                    <i class="fa-solid fa-volume-high"></i>
+                    <i class="fa-solid fa-battery-full"></i>
+                </div>
+                <div class="datetime" id="datetime">
+                    <div id="time">12:00 AM</div>
+                    <div id="date">01/01/2026</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
